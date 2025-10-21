@@ -20,7 +20,7 @@
 / {
     // Disable split keyboard features
     split_config {
-        enabled = false;
+        disabled;
     };
 
     keymap {
