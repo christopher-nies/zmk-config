@@ -123,7 +123,21 @@ path.combo {
     visibility: hidden;
 }
 /* End Tabler Icons Cleanup */
-</style>
+
+rect.key {
+      fill: transparent;  /* light gray */
+  }
+
+  /* color accent for held keys (keys that activate layers) */
+  rect.held, rect.combo.held {
+      fill: #fdd;  /* light pink/red */
+  }
+
+  /* ghost keys (optional) */
+  rect.ghost, rect.combo.ghost {
+      stroke-dasharray: 4, 4;  /* dashed border */
+      stroke-width: 2;
+  }</style>
 <g transform="translate(30, 0)" class="layer-Default Layer">
 <text x="0" y="28" class="label" id="Default-Layer">Default Layer:</text>
 <g transform="translate(0, 56)">
