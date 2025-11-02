@@ -124,6 +124,11 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 
+svg {
+  background-color: white;
+  background: white;
+}
+
 rect.key {
       fill: transparent;  /* light gray */
   }
