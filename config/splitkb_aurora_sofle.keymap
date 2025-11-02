@@ -16,6 +16,13 @@
 };
  */
 
+// Define German umlauts as Unicode pairs (lowercase and uppercase)
+ZMK_UNICODE_PAIR(de_ae, N0, N0, E4, N4, N0, N0, C4, N4)  // ä (U+00E4), Ä (U+00C4)
+ZMK_UNICODE_PAIR(de_oe, N0, N0, F6, N6, N0, N0, D6, N6)  // ö (U+00F6), Ö (U+00D6)
+ZMK_UNICODE_PAIR(de_ue, N0, N0, FC, NC, N0, N0, DC, NC)  // ü (U+00FC), Ü (U+00DC)
+ZMK_UNICODE_PAIR(de_ss, N0, N0, DF, NF, N0, N0, DF, NF)  // ß (U+00DF), (no uppercase ß)
+
+
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
@@ -50,8 +57,8 @@
 
             bindings = <
 &kp GRAVE  &kp N1  &kp N2     &kp N3        &kp N4  &kp N5                                     &kp N6     &kp N7  &kp N8     &kp N9     &kp N0    &kp DELETE
-&kp TAB    &kp Q   &kp W      &kp E         &kp R   &kp T                                      &kp Y      &mt &kp U &unicode 0x00FC   &kp I      &mt &kp O &unicode 0x00F6      &kp P     &kp MINUS
-&kp LCTRL  &mt &kp A &unicode 0x00E4   &mt &kp S &unicode 0x00DF      &kp D         &kp F   &kp G                                      &kp H      &kp J   &kp K      &kp L      &kp SEMI  &kp SQT
+&kp TAB    &kp Q   &kp W      &kp E         &kp R   &kp T                                      &kp Y      &mt U &de_ue   &kp I      &mt O &de_oe      &kp P     &kp MINUS
+&kp LCTRL  &mt A &de_ae   &mt S &de_ss     &kp D         &kp F   &kp G                                      &kp H      &kp J   &kp K      &kp L      &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X      &kp C         &kp V   &kp B         &kp K_MUTE    &trans         &kp N      &kp M   &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
                    &kp LCTRL  &kp LEFT_GUI  &mo 1   &kp LEFT_ALT  &kp RET       &kp BACKSPACE  &kp SPACE  &mo 2   &kp RGUI   &kp RCTRL
             >;
