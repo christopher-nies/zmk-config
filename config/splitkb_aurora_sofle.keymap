@@ -50,8 +50,8 @@
 
             bindings = <
 &kp GRAVE  &kp N1  &kp N2     &kp N3        &kp N4  &kp N5                                     &kp N6     &kp N7  &kp N8     &kp N9     &kp N0    &kp DELETE
-&kp TAB    &kp Q   &kp W      &kp E         &kp R   &kp T                                      &kp Y      &kp U   &kp I      &kp O      &kp P     &kp MINUS
-&kp LCTRL  &kp A   &kp S      &kp D         &kp F   &kp G                                      &kp H      &kp J   &kp K      &kp L      &kp SEMI  &kp SQT
+&kp TAB    &kp Q   &kp W      &kp E         &kp R   &kp T                                      &kp Y      &mt &kp U &unicode 0x00FC   &kp I      &mt &kp O &unicode 0x00F6      &kp P     &kp MINUS
+&kp LCTRL  &mt &kp A &unicode 0x00E4   &mt &kp S &unicode 0x00DF      &kp D         &kp F   &kp G                                      &kp H      &kp J   &kp K      &kp L      &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X      &kp C         &kp V   &kp B         &kp K_MUTE    &trans         &kp N      &kp M   &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
                    &kp LCTRL  &kp LEFT_GUI  &mo 1   &kp LEFT_ALT  &kp RET       &kp BACKSPACE  &kp SPACE  &mo 2   &kp RGUI   &kp RCTRL
             >;
