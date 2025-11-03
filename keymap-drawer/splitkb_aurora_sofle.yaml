@@ -52,7 +52,7 @@ layers:
   - /
   - {t: \, h: RSHFT}
   - LCTRL
-  - LEFT GUI
+  - LCTRL
   - LGUI
   - {t: LALT, h: Lower Layer}
   - RET
@@ -107,11 +107,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '{'
   - '}'
-  - '|'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
