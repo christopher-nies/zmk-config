@@ -398,6 +398,10 @@ rect.key {
 <rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
 <text x="28" y="91" class="combo tap">ESCAPE</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="14" y="134" width="28" height="26" class="combo"/>
+<text x="28" y="147" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 398)" class="layer-Lower Layer">
@@ -653,6 +657,10 @@ rect.key {
 <rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
 <text x="28" y="91" class="combo tap">ESCAPE</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="14" y="134" width="28" height="26" class="combo"/>
+<text x="28" y="147" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 795)" class="layer-Raise Layer">
@@ -901,6 +909,10 @@ rect.key {
 <rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
 <text x="28" y="91" class="combo tap">ESCAPE</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="14" y="134" width="28" height="26" class="combo"/>
+<text x="28" y="147" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1193)" class="layer-Adjust Layer">
@@ -1147,6 +1159,10 @@ rect.key {
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
 <text x="28" y="91" class="combo tap">ESCAPE</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="14" y="134" width="28" height="26" class="combo"/>
+<text x="28" y="147" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
