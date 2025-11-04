@@ -170,8 +170,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
