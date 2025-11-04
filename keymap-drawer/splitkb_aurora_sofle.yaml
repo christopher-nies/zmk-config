@@ -12,7 +12,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '=', h: DELETE}
+  - {t: '=', h: DELETE, s: +}
   - TAB
   - Q
   - W
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - '-'
+  - {t: '-', s: _}
   - LCTRL
   - A
   - S
@@ -35,8 +35,8 @@ layers:
   - J
   - K
   - L
-  - ;
-  - ''''
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - LSHFT
   - Z
   - X
@@ -47,10 +47,10 @@ layers:
   - {t: ▽, type: trans}
   - N
   - M
-  - ','
-  - .
-  - /
-  - {t: \, h: RSHFT}
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: \, h: RSHFT, s: '|'}
   - LCTRL
   - LCTRL
   - LGUI
