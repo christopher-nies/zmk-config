@@ -83,6 +83,9 @@ parse_config:
       left_ctrl+left_alt+left_shift: Meh
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
+    N1:
+      t: '1'
+      s: '!'
     EXCLAMATION: '!'
     EXCL: '!'
     AT_SIGN: '@'
