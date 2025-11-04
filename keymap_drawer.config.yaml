@@ -181,11 +181,15 @@ parse_config:
     GREATER_THAN: '>'
     GT: '>'
     LEFT_BRACKET: '['
-    LBKT: '['
+    LBKT:
+      t: '['
+      s: '{'
     LEFT_BRACE: '{'
     LBRC: '{'
     RIGHT_BRACKET: ']'
-    RBKT: ']'
+    RBKT:
+      t: ']'
+      s: '}'
     RIGHT_BRACE: '}'
     RBRC: '}'
     GRAVE:
