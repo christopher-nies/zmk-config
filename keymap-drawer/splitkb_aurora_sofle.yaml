@@ -54,10 +54,10 @@ layers:
   - LCTRL
   - LCTRL
   - LGUI
-  - {t: LALT, h: Lower Layer}
-  - RET
-  - SPACE
-  - {t: BACKSPACE, h: Raise Layer}
+  - LEFT ALT
+  - {t: RETURN, h: Lower Layer}
+  - {t: SPACE, h: Raise Layer}
+  - BACKSPACE
   - RGUI
   - RCTRL
   - RIGHT ALT
@@ -115,8 +115,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,8 +178,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
-  - {type: held}
+  - {t: DELETE, type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -237,10 +237,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
