@@ -142,7 +142,9 @@ parse_config:
     RBKT: ']'
     RIGHT_BRACE: '}'
     RBRC: '}'
-    GRAVE: '`'
+    GRAVE:
+      t: '`'
+      s: '~'
     TILDE: '~'
     NON_US_HASH: '#'
     NUHS: '#'
