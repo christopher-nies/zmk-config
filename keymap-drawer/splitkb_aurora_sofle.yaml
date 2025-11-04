@@ -2,7 +2,7 @@ layout: {zmk_keyboard: splitkb_aurora_sofle}
 layers:
   Default Layer:
   - {t: '`', s: '~'}
-  - '1'
+  - {t: '1', s: '!'}
   - '2'
   - '3'
   - '4'
@@ -136,7 +136,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
+  - {t: '1', s: '!'}
   - '2'
   - '3'
   - '4'
