@@ -51,17 +51,17 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: \, h: RSHFT, s: '|'}
-  - {t: num, h: toggle}
+  - {t: Num, h: toggle}
   - LCTRL
   - LGUI
   - LEFT ALT
-  - {t: RETURN, h: Lower Layer}
-  - {t: SPACE, h: Raise Layer}
+  - {t: RETURN, h: Lower}
+  - {t: SPACE, h: Raise}
   - BACKSPACE
   - RGUI
   - RCTRL
   - RIGHT ALT
-  Lower Layer:
+  Lower:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -117,12 +117,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - Raise Layer
+  - Raise
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Raise Layer:
+  Raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -183,7 +183,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Adjust Layer:
+  Adjust:
   - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -244,7 +244,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  num:
+  Num:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
