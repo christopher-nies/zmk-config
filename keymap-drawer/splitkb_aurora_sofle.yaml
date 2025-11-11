@@ -12,7 +12,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '=', h: DELETE, s: +}
+  - {t: '=', s: +}
   - TAB
   - Q
   - W
@@ -73,7 +73,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - F1
   - F2
   - F3
@@ -107,8 +107,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - END
   - '{'
   - '}'
   - {t: ▽, type: trans}
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - Raise
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -251,9 +251,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -300,8 +300,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ENTER
+  - BACKSPACE
   - KP 0
   - {t: ',', s: <}
   - KP DOT
